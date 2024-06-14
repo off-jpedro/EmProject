@@ -1,0 +1,12 @@
+C:\Users\Suporte\Documents\Projetos\EmProject\Repository\bin\Debug\net8.0\Repository.deps.json
+c:\Users\Suporte\Documents\Projetos\EmProject\Repository\bin\Debug\net8.0\Repository.dll
+c:\Users\Suporte\Documents\Projetos\EmProject\Repository\bin\Debug\net8.0\Repository.pdb
+c:\Users\Suporte\Documents\Projetos\EmProject\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Suporte\Documents\Projetos\EmProject\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+c:\Users\Suporte\Documents\Projetos\EmProject\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+c:\Users\Suporte\Documents\Projetos\EmProject\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+c:\Users\Suporte\Documents\Projetos\EmProject\Repository\obj\Debug\net8.0\Repository.sourcelink.json
+c:\Users\Suporte\Documents\Projetos\EmProject\Repository\obj\Debug\net8.0\Repository.dll
+c:\Users\Suporte\Documents\Projetos\EmProject\Repository\obj\Debug\net8.0\refint\Repository.dll
+c:\Users\Suporte\Documents\Projetos\EmProject\Repository\obj\Debug\net8.0\Repository.pdb
+C:\Users\Suporte\Documents\Projetos\EmProject\Repository\obj\Debug\net8.0\ref\Repository.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {}
+    "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {
+    "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Suporte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\obj\\",
+        "outputPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Suporte\\AppData\\Roaming\\NuGet\\NuGet.Config"

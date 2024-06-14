@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "e7qSnLVLCxAky9btRI0BqrWb0xo7UakrBpZTIgW11+3AdB5gtwMT8yuD8MlhrQXZfGFneOFECm2jnFXfVHSRhg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Suporte\\.nuget\\packages\\firebirdsql.data.firebirdclient\\10.3.1\\firebirdsql.data.firebirdclient.10.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}

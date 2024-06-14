@@ -1,7 +1,13 @@
+using Domain.Validators;
+using Domain.Validators.Interfaces;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//Aluno Dependencies
+builder.Services.AddSingleton<IAlunoValidator,AlunoValidator>();
 
 var app = builder.Build();
 

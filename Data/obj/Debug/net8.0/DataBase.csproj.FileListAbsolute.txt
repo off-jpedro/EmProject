@@ -1,0 +1,5 @@
+c:\Users\Suporte\Documents\Projetos\EmProject\Data\obj\Debug\net8.0\DataBase.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Suporte\Documents\Projetos\EmProject\Data\obj\Debug\net8.0\DataBase.AssemblyInfoInputs.cache
+c:\Users\Suporte\Documents\Projetos\EmProject\Data\obj\Debug\net8.0\DataBase.AssemblyInfo.cs
+c:\Users\Suporte\Documents\Projetos\EmProject\Data\obj\Debug\net8.0\DataBase.csproj.CoreCompileInputs.cache
+c:\Users\Suporte\Documents\Projetos\EmProject\Data\obj\Debug\net8.0\DataBase.sourcelink.json
