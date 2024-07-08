@@ -5667,11 +5667,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Tests\\ValidatorTests\\ValidatorTest.Tests.csproj",
+      "projectUniqueName": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Tests\\ValidatorTests\\ValidatorTest.Tests.csproj",
       "projectName": "ValidatorTest.Tests",
-      "projectPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Tests\\ValidatorTests\\ValidatorTest.Tests.csproj",
+      "projectPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Tests\\ValidatorTests\\ValidatorTest.Tests.csproj",
       "packagesPath": "C:\\Users\\Suporte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Tests\\ValidatorTests\\obj\\",
+      "outputPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Tests\\ValidatorTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Suporte\\AppData\\Roaming\\NuGet\\NuGet.Config"

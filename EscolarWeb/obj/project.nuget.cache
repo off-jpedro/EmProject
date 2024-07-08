@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D9dhLqs9EkbtTVv/0/JY1mdtrVs0YYp6D9R97K/b61/d/bVIKcBwuWRSoOHzhfd1fzwiGt4LpxtMvA5CucDVAQ==",
+  "dgSpecHash": "h6l87MWNsPcMt4Ne0w3jbi5Q7wmFeKYzjEN9f8kwL/LqcjOzPjmE/N4PJCJAbBUfVNp+FSzR64ox7TDnwe3+8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\EscolarWeb\\EscolarWeb.csproj",
+  "projectFilePath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\EscolarWeb\\EscolarWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",

@@ -10,3 +10,9 @@ c:\Users\Suporte\Documents\Projetos\EmProject\Repository\obj\Debug\net8.0\Reposi
 c:\Users\Suporte\Documents\Projetos\EmProject\Repository\obj\Debug\net8.0\refint\Repository.dll
 c:\Users\Suporte\Documents\Projetos\EmProject\Repository\obj\Debug\net8.0\Repository.pdb
 C:\Users\Suporte\Documents\Projetos\EmProject\Repository\obj\Debug\net8.0\ref\Repository.dll
+c:\Users\Suporte\Documents\Projetos\EmProject\Repository\bin\Debug\net8.0\DataBase.dll
+c:\Users\Suporte\Documents\Projetos\EmProject\Repository\bin\Debug\net8.0\Domain.dll
+c:\Users\Suporte\Documents\Projetos\EmProject\Repository\bin\Debug\net8.0\DataBase.pdb
+c:\Users\Suporte\Documents\Projetos\EmProject\Repository\bin\Debug\net8.0\Domain.pdb
+c:\Users\Suporte\Documents\Projetos\EmProject\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+c:\Users\Suporte\Documents\Projetos\EmProject\Repository\obj\Debug\net8.0\Repository.csproj.Up2Date

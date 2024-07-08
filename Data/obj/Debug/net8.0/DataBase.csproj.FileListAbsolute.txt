@@ -3,3 +3,14 @@ c:\Users\Suporte\Documents\Projetos\EmProject\Data\obj\Debug\net8.0\DataBase.Ass
 c:\Users\Suporte\Documents\Projetos\EmProject\Data\obj\Debug\net8.0\DataBase.AssemblyInfo.cs
 c:\Users\Suporte\Documents\Projetos\EmProject\Data\obj\Debug\net8.0\DataBase.csproj.CoreCompileInputs.cache
 c:\Users\Suporte\Documents\Projetos\EmProject\Data\obj\Debug\net8.0\DataBase.sourcelink.json
+c:\Users\Suporte\Documents\Projetos\EmProject\Data\bin\Debug\net8.0\DataBase.deps.json
+c:\Users\Suporte\Documents\Projetos\EmProject\Data\bin\Debug\net8.0\DataBase.dll
+c:\Users\Suporte\Documents\Projetos\EmProject\Data\bin\Debug\net8.0\DataBase.pdb
+c:\Users\Suporte\Documents\Projetos\EmProject\Data\bin\Debug\net8.0\Domain.dll
+c:\Users\Suporte\Documents\Projetos\EmProject\Data\bin\Debug\net8.0\Domain.pdb
+c:\Users\Suporte\Documents\Projetos\EmProject\Data\obj\Debug\net8.0\DataBase.csproj.AssemblyReference.cache
+c:\Users\Suporte\Documents\Projetos\EmProject\Data\obj\Debug\net8.0\DataBase.csproj.Up2Date
+c:\Users\Suporte\Documents\Projetos\EmProject\Data\obj\Debug\net8.0\DataBase.dll
+c:\Users\Suporte\Documents\Projetos\EmProject\Data\obj\Debug\net8.0\refint\DataBase.dll
+c:\Users\Suporte\Documents\Projetos\EmProject\Data\obj\Debug\net8.0\DataBase.pdb
+c:\Users\Suporte\Documents\Projetos\EmProject\Data\obj\Debug\net8.0\ref\DataBase.dll

@@ -1,18 +1,44 @@
 using FirebirdSql.Data.FirebirdClient;
+using System;
 
-namespace Data
+namespace EMRepository
 {
     public class FireBirdDataBase
     {
-        private readonly string _connectionString;
+        private static string pUser = "SYSDBA";
+        private static string pPassword = "masterkey";
+        private static string pDatabase = "localhost:C:\\Users\\Suporte\\Documents\\Projetos\\BancoEmProject";
+        private static string pDataSource = "localhost";
+        private static int pPort = 3054;
+        private static int pDialet = 3;
+        private static string pCharset = FbCharset.Utf8.ToString();
 
-        public FireBirdDataBase(string connectionString)
+        public FbConnection connection;
+
+        public bool bconexao { get; set; }
+
+        public FireBirdDataBase()
         {
-            _connectionString = connectionString;
-        }
+            FbConnectionStringBuilder stringconnection = new FbConnectionStringBuilder()
+            {
+                Port = pPort,
+                UserID = pUser,
+                Password = pPassword,
+                Database = pDatabase,
+                Dialect = pDialet,
+                Charset = pCharset
+            };
 
-        public FbConnection CreateConneciton( ){
-            return new FbConnection(_connectionString);
+            try
+            {
+                connection = new FbConnection(stringconnection.ToString());
+                connection.Open();
+                bconexao = true;
+            }
+            catch (Exception ex)
+            {
+                bconexao = false;
+            }
         }
     }
 }

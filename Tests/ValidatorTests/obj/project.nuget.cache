@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F+mP+kG6Zjzkt1O8o7wfabBPgoz5jG8Xwd8nfdB/GNjsMimLE3FwEZxF0NIFAfplBpo5V5s25SRQLeOJu95N4A==",
+  "dgSpecHash": "daO0IeqmeTfr/IkyBTeTr7erBsVwfAxhR3Egea1WMxPAijZWpVWpGU9RSuGrcuMqkliuRLLDRgACce4lZHGhyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Tests\\ValidatorTests\\ValidatorTest.Tests.csproj",
+  "projectFilePath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Tests\\ValidatorTests\\ValidatorTest.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Suporte\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",

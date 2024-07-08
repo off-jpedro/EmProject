@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Repository\\Repository.csproj": {}
+    "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj": {
+    "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj",
+        "projectUniqueName": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj",
         "projectName": "DataBase",
-        "projectPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj",
+        "projectPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj",
         "packagesPath": "C:\\Users\\Suporte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\obj\\",
+        "outputPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Suporte\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -25,7 +25,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -132,14 +136,14 @@
         }
       }
     },
-    "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Repository\\Repository.csproj": {
+    "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Repository\\Repository.csproj",
+        "projectUniqueName": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Repository\\Repository.csproj",
+        "projectPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\Suporte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Repository\\obj\\",
+        "outputPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Suporte\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -154,8 +158,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj": {
-                "projectPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj"
+              "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj": {
+                "projectPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj"
               },
               "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {
                 "projectPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj"

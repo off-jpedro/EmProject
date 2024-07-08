@@ -3,7 +3,7 @@ using Domain.Interfaces;
 
 namespace Domain.Models
 {
-    public class Aluno : Entity<Aluno>
+    public class Aluno : IEntity
     {
         public int Matricula {get; set;}
         public string? Nome {get; set;}
