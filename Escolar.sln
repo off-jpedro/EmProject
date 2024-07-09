@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -6,8 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{F42BE74E-19BA-4472-9267-2412AA2DABD6}"
 	ProjectSection(SolutionItems) = preProject
 	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{41803B97-DBD4-4EEF-9C51-83CD9A926857}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{57112775-9973-43DA-8D4D-A000D3542D43}"
 EndProject
@@ -25,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidatorTest.Tests", "Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscolarWeb", "EscolarWeb\EscolarWeb.csproj", "{E375675E-8995-4320-AF34-5DC4BF599626}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryTests", "Tests\RepositoryTests\RepositoryTests.csproj", "{95C22DD9-AE3C-4FD9-A8E5-127A1F65474D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryTest", "Tests\RepositoryTests\RepositoryTest\RepositoryTest.csproj", "{C91E4D86-E4ED-4E72-863C-96BF52C3B980}"
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
@@ -36,7 +34,7 @@ Global
 		{8C8E67FD-47A1-4AE2-8D63-25CDE8F521E4} = {C6607626-E027-4AD5-A0D1-510534555051}
 		{61292645-81DA-41FF-8087-4B455AEABE4F} = {57112775-9973-43DA-8D4D-A000D3542D43}
 		{4DC86993-7BED-4869-8F7D-3F3EE96A8DEA} = {C79E193E-3BDD-4A56-A133-654FB0D429D7}
-		{95C22DD9-AE3C-4FD9-A8E5-127A1F65474D} = {C79E193E-3BDD-4A56-A133-654FB0D429D7}
+		{C91E4D86-E4ED-4E72-863C-96BF52C3B980} = {C79E193E-3BDD-4A56-A133-654FB0D429D7}
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,17 +105,17 @@ Global
 		{E375675E-8995-4320-AF34-5DC4BF599626}.Release|x64.Build.0 = Release|Any CPU
 		{E375675E-8995-4320-AF34-5DC4BF599626}.Release|x86.ActiveCfg = Release|Any CPU
 		{E375675E-8995-4320-AF34-5DC4BF599626}.Release|x86.Build.0 = Release|Any CPU
-		{95C22DD9-AE3C-4FD9-A8E5-127A1F65474D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{95C22DD9-AE3C-4FD9-A8E5-127A1F65474D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{95C22DD9-AE3C-4FD9-A8E5-127A1F65474D}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{95C22DD9-AE3C-4FD9-A8E5-127A1F65474D}.Debug|x64.Build.0 = Debug|Any CPU
-		{95C22DD9-AE3C-4FD9-A8E5-127A1F65474D}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{95C22DD9-AE3C-4FD9-A8E5-127A1F65474D}.Debug|x86.Build.0 = Debug|Any CPU
-		{95C22DD9-AE3C-4FD9-A8E5-127A1F65474D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{95C22DD9-AE3C-4FD9-A8E5-127A1F65474D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{95C22DD9-AE3C-4FD9-A8E5-127A1F65474D}.Release|x64.ActiveCfg = Release|Any CPU
-		{95C22DD9-AE3C-4FD9-A8E5-127A1F65474D}.Release|x64.Build.0 = Release|Any CPU
-		{95C22DD9-AE3C-4FD9-A8E5-127A1F65474D}.Release|x86.ActiveCfg = Release|Any CPU
-		{95C22DD9-AE3C-4FD9-A8E5-127A1F65474D}.Release|x86.Build.0 = Release|Any CPU
+		{C91E4D86-E4ED-4E72-863C-96BF52C3B980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C91E4D86-E4ED-4E72-863C-96BF52C3B980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C91E4D86-E4ED-4E72-863C-96BF52C3B980}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C91E4D86-E4ED-4E72-863C-96BF52C3B980}.Debug|x64.Build.0 = Debug|Any CPU
+		{C91E4D86-E4ED-4E72-863C-96BF52C3B980}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C91E4D86-E4ED-4E72-863C-96BF52C3B980}.Debug|x86.Build.0 = Debug|Any CPU
+		{C91E4D86-E4ED-4E72-863C-96BF52C3B980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C91E4D86-E4ED-4E72-863C-96BF52C3B980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C91E4D86-E4ED-4E72-863C-96BF52C3B980}.Release|x64.ActiveCfg = Release|Any CPU
+		{C91E4D86-E4ED-4E72-863C-96BF52C3B980}.Release|x64.Build.0 = Release|Any CPU
+		{C91E4D86-E4ED-4E72-863C-96BF52C3B980}.Release|x86.ActiveCfg = Release|Any CPU
+		{C91E4D86-E4ED-4E72-863C-96BF52C3B980}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

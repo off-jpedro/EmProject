@@ -2,24 +2,15 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+      "FluentValidation/11.9.2": {
         "type": "package",
         "compile": {
-          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
-        },
-        "runtime": {
-          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
-        }
-      },
-      "FluentValidation/11.5.1": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/FluentValidation.dll": {
+          "lib/net8.0/FluentValidation.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/FluentValidation.dll": {
+          "lib/net8.0/FluentValidation.dll": {
             "related": ".xml"
           }
         }
@@ -78,6 +69,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "FluentValidation": "11.9.2",
           "FluentValidation.AspNetCore": "11.3.0"
         },
         "compile": {
@@ -90,37 +82,16 @@
     }
   },
   "libraries": {
-    "FirebirdSql.Data.FirebirdClient/10.3.1": {
-      "sha512": "LDKlTIH3Tivi8sMkwrolVcIZWJDTwxBCugE+eEZRY6pFnK75gmJnV0u4FkC73M6ERbCKUvY7m5ox8VkicJZubg==",
+    "FluentValidation/11.9.2": {
+      "sha512": "XeHp9LvFvu1fsQ/NvDCymV02GOCB1nz7ZUhfpI3uMhCcHTkV1K5bMkv+Nc/kuNYyAsX5+5bcmUanIEMd5QN+Eg==",
       "type": "package",
-      "path": "firebirdsql.data.firebirdclient/10.3.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "firebird-logo.png",
-        "firebirdsql.data.firebirdclient.10.3.1.nupkg.sha512",
-        "firebirdsql.data.firebirdclient.nuspec",
-        "lib/net48/FirebirdSql.Data.FirebirdClient.dll",
-        "lib/net5.0/FirebirdSql.Data.FirebirdClient.dll",
-        "lib/net6.0/FirebirdSql.Data.FirebirdClient.dll",
-        "lib/net7.0/FirebirdSql.Data.FirebirdClient.dll",
-        "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll",
-        "lib/netstandard2.0/FirebirdSql.Data.FirebirdClient.dll",
-        "lib/netstandard2.1/FirebirdSql.Data.FirebirdClient.dll",
-        "license.txt"
-      ]
-    },
-    "FluentValidation/11.5.1": {
-      "sha512": "0h1Q5lNOLLyYTWMJmyNoMqhY4CBRvvUWvJP1R4F2CnmmzuWwvB0A8aVmw5+lOuwYnwUwCRrdeMLbc81F38ahNQ==",
-      "type": "package",
-      "path": "fluentvalidation/11.5.1",
+      "path": "fluentvalidation/11.9.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "fluent-validation-icon.png",
-        "fluentvalidation.11.5.1.nupkg.sha512",
+        "fluentvalidation.11.9.2.nupkg.sha512",
         "fluentvalidation.nuspec",
         "lib/net5.0/FluentValidation.dll",
         "lib/net5.0/FluentValidation.xml",
@@ -128,6 +99,8 @@
         "lib/net6.0/FluentValidation.xml",
         "lib/net7.0/FluentValidation.dll",
         "lib/net7.0/FluentValidation.xml",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml",
         "lib/netstandard2.0/FluentValidation.dll",
         "lib/netstandard2.0/FluentValidation.xml",
         "lib/netstandard2.1/FluentValidation.dll",
@@ -191,8 +164,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Domain >= 1.0.0",
-      "FirebirdSql.Data.FirebirdClient >= 10.3.1"
+      "Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -201,11 +173,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj",
+      "projectUniqueName": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj",
       "projectName": "DataBase",
-      "projectPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj",
+      "projectPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj",
       "packagesPath": "C:\\Users\\Suporte\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\obj\\",
+      "outputPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Suporte\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -220,8 +192,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {
-              "projectPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj"
+            "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj"
             }
           }
         }
@@ -240,12 +212,6 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
-        "dependencies": {
-          "FirebirdSql.Data.FirebirdClient": {
-            "target": "Package",
-            "version": "[10.3.1, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

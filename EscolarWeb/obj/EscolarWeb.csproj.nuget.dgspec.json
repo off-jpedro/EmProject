@@ -1,17 +1,79 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\EscolarWeb\\EscolarWeb.csproj": {}
+    "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\EscolarWeb\\EscolarWeb.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {
+    "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj",
+        "projectName": "DataBase",
+        "projectPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj",
         "packagesPath": "C:\\Users\\Suporte\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Suporte\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Suporte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Suporte\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +105,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[11.3.0, )"
@@ -68,14 +134,14 @@
         }
       }
     },
-    "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\EscolarWeb\\EscolarWeb.csproj": {
+    "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\EscolarWeb\\EscolarWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\EscolarWeb\\EscolarWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\EscolarWeb\\EscolarWeb.csproj",
         "projectName": "EscolarWeb",
-        "projectPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\EscolarWeb\\EscolarWeb.csproj",
+        "projectPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\EscolarWeb\\EscolarWeb.csproj",
         "packagesPath": "C:\\Users\\Suporte\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\EscolarWeb\\obj\\",
+        "outputPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\EscolarWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Suporte\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -90,8 +156,85 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj"
+              "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FirebirdSql.Data.FirebirdClient": {
+              "target": "Package",
+              "version": "[10.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\Suporte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Suporte\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj": {
+                "projectPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj"
+              },
+              "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj"
               }
             }
           }
@@ -122,9 +265,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

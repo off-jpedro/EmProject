@@ -1,5 +1,8 @@
+using Domain.Models;
 using Domain.Validators;
 using Domain.Validators.Interfaces;
+using EMRepository;
+using Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +11,7 @@ builder.Services.AddControllersWithViews();
 
 //Aluno Dependencies
 builder.Services.AddSingleton<IAlunoValidator,AlunoValidator>();
+builder.Services.AddSingleton<IAlunoRepository<Aluno>, AlunoRepository>();
 
 var app = builder.Build();
 

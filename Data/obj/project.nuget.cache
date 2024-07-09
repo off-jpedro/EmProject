@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RLao9DVtD1v6/EJi5R2hgDbcG0jE147o4zSqgz3Eq3MKan+txgVQBN3rtxa5x9l9xxvZwZ2BhgZmdwshJS4miQ==",
+  "dgSpecHash": "tBkMXWppTSm5iGRu2gucnrRlwZQA0mbJljQVzGninr3KW3OEL88reQ0nOLLLxMkdrpO1uf2wsPb1LcgtK/OISw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj",
+  "projectFilePath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Suporte\\.nuget\\packages\\firebirdsql.data.firebirdclient\\10.3.1\\firebirdsql.data.firebirdclient.10.3.1.nupkg.sha512",
-    "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"

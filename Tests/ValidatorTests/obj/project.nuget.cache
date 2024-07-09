@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "daO0IeqmeTfr/IkyBTeTr7erBsVwfAxhR3Egea1WMxPAijZWpVWpGU9RSuGrcuMqkliuRLLDRgACce4lZHGhyQ==",
+  "dgSpecHash": "GT3T+w/Ry2ovDBW74o5VPlHls94PFoAeP18UW0tMtNAX36KskTwQ/JOt+Ja48YwxK8HWYX/cF4vbVRCBmldN6Q==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Tests\\ValidatorTests\\ValidatorTest.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Tests\\ValidatorTests\\ValidatorTest.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Suporte\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
-    "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

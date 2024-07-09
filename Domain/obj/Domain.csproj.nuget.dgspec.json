@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {
+    "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Suporte\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Suporte\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[11.3.0, )"

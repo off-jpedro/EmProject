@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "h6l87MWNsPcMt4Ne0w3jbi5Q7wmFeKYzjEN9f8kwL/LqcjOzPjmE/N4PJCJAbBUfVNp+FSzR64ox7TDnwe3+8w==",
+  "dgSpecHash": "auAGnSl8de+6KKLvggNmXQEPIb+Z4KttS22KkN7T/T5M3CFrBtDi4cOHv9Y/YB1qbxyQV95do3n0ts0FIRaXqQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\EscolarWeb\\EscolarWeb.csproj",
+  "projectFilePath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\EscolarWeb\\EscolarWeb.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Suporte\\.nuget\\packages\\firebirdsql.data.firebirdclient\\10.3.1\\firebirdsql.data.firebirdclient.10.3.1.nupkg.sha512",
+    "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"

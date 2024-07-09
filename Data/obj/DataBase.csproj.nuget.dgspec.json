@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj": {}
+    "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj": {
+    "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj",
+        "projectUniqueName": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj",
         "projectName": "DataBase",
-        "projectPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj",
+        "projectPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\DataBase.csproj",
         "packagesPath": "C:\\Users\\Suporte\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\obj\\",
+        "outputPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Suporte\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj"
+              "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj"
               }
             }
           }
@@ -46,12 +46,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "FirebirdSql.Data.FirebirdClient": {
-              "target": "Package",
-              "version": "[10.3.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -72,14 +66,14 @@
         }
       }
     },
-    "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {
+    "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Suporte\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Suporte\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -111,6 +105,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[11.3.0, )"
