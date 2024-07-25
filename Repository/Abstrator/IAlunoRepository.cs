@@ -1,4 +1,5 @@
-﻿using Domain.Interfaces;
+﻿using Data.Factory;
+using Domain.Interfaces;
 using Domain.Models;
 
 namespace EMRepository

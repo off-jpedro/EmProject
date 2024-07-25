@@ -1,13 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "1Q9eApHGjDXGOdPpiarAK3J0g+7hgMX1mEJPguYNFHMnTITiARNILH5HYRsUvIF16pQ80u1o7xw/MSjqQUogwQ==",
+  "dgSpecHash": "rXILTqSWaGX2z0P2Pj8oiYdvheb2rBPqr8i426wIvudHrWwGwqUjQU/Sqs66A3AvoT2omlriLr/y2fJWWO+PiA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Suporte\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
-    "C:\\Users\\Suporte\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    "C:\\Users\\Suporte\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\Suporte\\.nuget\\packages\\mongodb.bson\\2.27.0\\mongodb.bson.2.27.0.nupkg.sha512",
+    "C:\\Users\\Suporte\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Suporte\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

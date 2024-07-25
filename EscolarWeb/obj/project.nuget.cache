@@ -1,14 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "auAGnSl8de+6KKLvggNmXQEPIb+Z4KttS22KkN7T/T5M3CFrBtDi4cOHv9Y/YB1qbxyQV95do3n0ts0FIRaXqQ==",
+  "dgSpecHash": "l7O9hTNUEpiEPxRkFMat6w8dOOhDz4giy/8dZGJoabwin+BsFHENJd608Z2osprJsUxUiLJCogrG6odUv5x22Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\EscolarWeb\\EscolarWeb.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Suporte\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\firebirdsql.data.firebirdclient\\10.3.1\\firebirdsql.data.firebirdclient.10.3.1.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
-    "C:\\Users\\Suporte\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    "C:\\Users\\Suporte\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\Suporte\\.nuget\\packages\\mongodb.bson\\2.27.0\\mongodb.bson.2.27.0.nupkg.sha512",
+    "C:\\Users\\Suporte\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Suporte\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
