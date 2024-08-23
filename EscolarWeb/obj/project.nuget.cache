@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "l7O9hTNUEpiEPxRkFMat6w8dOOhDz4giy/8dZGJoabwin+BsFHENJd608Z2osprJsUxUiLJCogrG6odUv5x22Q==",
+  "dgSpecHash": "EZu6tepYozd7gg404ascj60tolmmALnvJOQntChD6tYXGw/IjspKRSSbYvfjl1OCGfewhFvVdgVugKodmOCKgw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Suporte\\Documents\\Projetos\\EmProject\\EscolarWeb\\EscolarWeb.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Suporte\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\firebirdsql.data.firebirdclient\\10.3.1\\firebirdsql.data.firebirdclient.10.3.1.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\Suporte\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",

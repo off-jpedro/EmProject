@@ -26,26 +26,26 @@ namespace Repository
             return _listAlunos.AsEnumerable();
         }
 
-        public Task<Aluno> GetById(long id)
+        public async Task<Aluno> GetById(long id)
         {
             var entity = _listAlunos.FirstOrDefault(x => x.Matricula == id);
 
             if(entity != null){
-                return Task.FromResult(entity);    
+                return await Task.FromResult(entity);    
             }
-            return Task.FromResult<Aluno>(null);
+            return await Task.FromResult<Aluno>(null);
         }
 
-        public Task<bool> Insert(Aluno entity)
+        public async Task<bool> Insert(Aluno entity)
         {
              entity.Matricula = _listAlunos.Count + 1;
 
              this._listAlunos.Add(entity);
 
-             return Task.FromResult(true);
+             return await Task.FromResult(true);
         }
 
-        public Task<bool> Update(Aluno entity)
+        public async Task<bool> Update(Aluno entity)
         {
             var model = _listAlunos.FirstOrDefault(x => x.Matricula == entity.Matricula);
 
@@ -56,19 +56,19 @@ namespace Repository
                 model.Sexo = entity.Sexo;
             }
 
-            return Task.FromResult(false);
+            return await Task.FromResult(false);
         }
 
-        public Task<bool> Delete(Aluno entity)
+        public async Task<bool> Delete(Aluno entity)
         {
             var model = _listAlunos.FirstOrDefault(x => x.Matricula == entity.Matricula);
 
             if(model != null){
                 this._listAlunos.Remove(model);
-                return Task.FromResult(true);
+                return await Task.FromResult(true);
             }
 
-            return Task.FromResult(false);
+            return await Task.FromResult(false);
         }
     }
 }
